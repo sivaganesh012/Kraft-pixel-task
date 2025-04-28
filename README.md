@@ -14,6 +14,54 @@ CAN use:
 Basic CSS reset if you want (optional).
 
 Flexbox/Grid for layouts.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - KraftPixel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Your content goes here -->
+</body>
+</html>
+Sample CSS media query for tablet/desktop:
+
+css
+Copy
+Edit
+@media (min-width: 768px) {
+  /* Adjust layouts here */
+}Push your project:
+
+bash
+Copy
+Edit
+git init
+git add .
+git commit -m "Initial commit for KraftPixel task"
+git branch -M main
+git remote add origin https://github.com/your-username/repo-name.git
+git push -u origin main<section class="about-section">
+  <div class="container">
+    <h2 class="section-title">About Us</h2>
+    <p class="section-description">Some description here...</p>
+  </div>
+</section>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - KraftPixel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Your content goes here -->
+</body>
+</html>
 
 🏗 How to proceed practically:
 4.1. Open the Figma file
